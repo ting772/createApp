@@ -18,7 +18,7 @@ program
   .action(async (appName, options) => {
     const { default: chalk } = await import("chalk");
 
-    const cwd = path.resolve(__dirname, appName);
+    const cwd = path.resolve(process.cwd(), appName);
 
     const log = console.log.bind(console);
     const info = (...args) => {

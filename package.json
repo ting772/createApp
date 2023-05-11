@@ -1,8 +1,9 @@
 {
-  "name": "create-app",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@thing772/create-app",
+  "version": "1.0.1",
+  "description": "创建webpack、js/vue/react、less/scss、ts、eslint、babel项目的简单脚手架",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,7 @@
     "@babel/traverse": "^7.21.5",
     "@babel/types": "^7.21.5",
     "chalk": "^5.2.0",
+    "commander": "^10.0.1",
     "inquirer": "^8.2.5",
     "jsonfile": "^6.1.0"
   }

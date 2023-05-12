@@ -20,5 +20,8 @@
     "commander": "^10.0.1",
     "inquirer": "^8.2.5",
     "jsonfile": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0"
   }
 }

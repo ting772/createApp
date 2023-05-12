@@ -36,7 +36,7 @@ program
 
     async function run() {
       //根据用户查询下载npm dev包
-      const userOptions = await require("./lib/devInstall")({
+      const userOptions = await require("./lib/install")({
         cwd,
         logUtils,
         launch_options: options,

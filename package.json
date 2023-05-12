@@ -1,6 +1,6 @@
 {
   "name": "@thing772/create-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "创建webpack、js/vue/react、less/scss、ts、eslint、babel项目的简单脚手架",
   "main": "index.js",
   "bin": "index.js",

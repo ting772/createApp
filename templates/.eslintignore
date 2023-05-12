@@ -1,0 +1,6 @@
+#忽略目录下的一些.js配置文件 如webpack.config.js
+/*.js
+node_modules
+test
+.vscode
+dist

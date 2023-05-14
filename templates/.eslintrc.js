@@ -2,13 +2,8 @@
 
 module.exports = {
   extends: ["eslint:recommended"],
+  plugins: [],
 
-  //如果需要支持react语法打开
-  // extends: ["eslint:recommended", "plugin:react/recommended"],
-  // "plugins": [
-  //   "react"
-  // ],
-  
   //https://eslint.org/docs/latest/use/configure/language-options#specifying-environments
   env: {
     browser: true,

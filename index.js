@@ -41,6 +41,7 @@ program
         logUtils,
         launch_options: options,
       });
+
       //添加各种配置文件
       await require("./lib/config")({
         cwd,

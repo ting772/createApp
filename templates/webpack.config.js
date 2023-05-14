@@ -41,6 +41,10 @@ module.exports = function (env) {
         },
       ],
     },
-    plugins: [new HtmlWebpackPlugin()],
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: "./index.html",
+      }),
+    ],
   };
 };

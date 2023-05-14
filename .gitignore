@@ -1,6 +1,7 @@
-dist
-node_modules
+dist/
+node_modules/
 *.log
 test/
 test.js
 .vscode
+example/

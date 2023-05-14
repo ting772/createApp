@@ -8,4 +8,5 @@ module.exports = {
     node: true,
     es2022: true,
   },
+  ignorePatterns: ["templates", "node_modules", "test", "example"],
 };

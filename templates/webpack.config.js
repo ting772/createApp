@@ -14,6 +14,7 @@ module.exports = function (env) {
         //   writeToDisk: true,
         // },
         open: true,
+        historyApiFallback: true,
       },
     });
   }
@@ -29,7 +30,7 @@ module.exports = function (env) {
     devtool: isEnvProduction ? "hidden-source-map" : "eval",
     resolve: {
       //别名
-      alias: {},
+      alias: { "@": path.resolve(__dirname, "src") },
       extensions: [".tsx", ".jsx", ".ts", ".js"],
     },
     ...devConfig,

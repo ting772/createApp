@@ -1,6 +1,7 @@
 //https://eslint.org/docs/latest/use/configure/
 
 module.exports = {
+  root: true,
   extends: ["eslint:recommended"],
   plugins: [],
 
@@ -15,6 +16,7 @@ module.exports = {
 
   //https://eslint.org/docs/latest/use/configure/language-options#specifying-parser-options
   parserOptions: {
+    sourceType: "module",
     ecmaVersion: 6,
     ecmaFeatures: {
       //如果要支持jsx，打开jsx：true
